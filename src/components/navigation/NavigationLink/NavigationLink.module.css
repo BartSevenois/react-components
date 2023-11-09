@@ -1,0 +1,23 @@
+.link {
+  color: var(--text-color);
+}
+.link:hover {
+  color: var(--hover-text-color)
+}
+
+.linkScroll {
+  color: var(--scroll-text-color);
+}
+
+.linkScroll:hover {
+  color: var(--scroll-text-hover-color);
+}
+
+.subMenu {
+  color: var(--sub-menu-text-color);
+  background-color: var(--sub-menu-color);
+}
+
+.subMenu a:hover {
+  color: var(--sub-menu-text-hover-color);
+}

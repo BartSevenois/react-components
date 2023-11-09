@@ -1,0 +1,23 @@
+.btnDefault {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border-color: var(--border-color);
+}
+
+.btnDefault:hover {
+  background-color: var(--hover-color);
+  border-color: var(--border-hover-color);
+  color: var(--hover-text-color)
+}
+
+.btnBorder {
+  border-color: var(--border-color);
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.btnBorder:hover {
+  background-color: var(--hover-color);
+  color: var(--hover-text-color);
+  border-color: var(--border-hover-color);
+}

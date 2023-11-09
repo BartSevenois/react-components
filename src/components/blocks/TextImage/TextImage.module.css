@@ -1,0 +1,7 @@
+.textImageFullscreen {
+  min-height: var(--min-height);
+}
+
+.image {
+  height: var(--image-height)
+}

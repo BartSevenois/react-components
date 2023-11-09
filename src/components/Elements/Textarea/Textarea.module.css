@@ -1,0 +1,17 @@
+.textInput {
+  background-color: var(--background-color);
+}
+
+.textInput:hover, .textInput:focus {
+  opacity: 0.7;
+}
+
+.textInput, .borderInput {
+  color: var(--text-color);
+}
+.borderInput {
+  border-color: var(--border-color);
+}
+.borderInput:hover, .borderInput:focus {
+  border-color: var(--hover-color);
+}

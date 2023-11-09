@@ -1,0 +1,18 @@
+.navigationBar {
+  background-color: var(--background-color);
+}
+
+.navigationBarTransparent {
+  background-color: transparent;
+}
+
+.navigationBarScroll {
+  background-color: var(--scroll-color);
+}
+.navigationBar .logo, .navigationBarTransparent .logo {
+  color: var(--logo-color);
+}
+
+.navigationBarScroll .logo {
+  color: var(--scroll-logo-color);
+}
